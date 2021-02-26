@@ -30,4 +30,3 @@ def flatten[T](li:List[List[T]]):List[T] = {
 flatten(Nil)
 flatten(List(List(1, 2), List(3, 4)))
 flatten(List(List(List(1, 2)), List(List(3, 4))))
-© 2021 GitHub, Inc.
