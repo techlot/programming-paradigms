@@ -24,12 +24,6 @@ unzipL(ll_4)
 
 val vals_res = unzipL(vals)
 
-(unzipL(ll_0)._1.force, unzipL(ll_0)._2.force)
-(unzipL(ll_1)._1.force, unzipL(ll_1)._2.force)
-(unzipL(ll_2)._1.force, unzipL(ll_2)._2.force)
-(unzipL(ll_3)._1.force, unzipL(ll_3)._2.force)
-(unzipL(ll_4)._1.force, unzipL(ll_4)._2.force)
-
 vals_res._1.take(10).force
 vals_res._2.take(10).force
 
